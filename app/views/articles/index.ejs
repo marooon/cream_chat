@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/css/bootswatch.css" rel="stylesheet">
+  </head>
+  
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">
+            Web Socket Chat
+          </a>
+          <ul class="nav">
+            <li>
+              <a href="#">
+                Room
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Contact
+              </a>
+            </li>
+          </ul>
+          <a class="btn btn-warning login" href="#">
+            Login
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <h1>
+          Web socket chat
+        </h1>
+      </div>
+      <div class="control-group">
+      </div>
+      <div>
+      </div>
+      <div class="control-group">
+      </div>
+      <div class="control-group">
+      </div>
+      <hr>
+      <div class="row">
+        <div class="span1">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 60px; height: 60px;">
+        </div>
+        <div class="span11">
+          <div class="well">
+            <div>
+              <span style="font-size: 13px;">
+                テストテストテストテストテストテストテストテスト
+                <br>
+                テスト
+                <br>
+                テストテスト
+              </span>
+              <br>
+              &nbsp;
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+      </div>
+      <div class="row">
+        <div class="span11">
+          <div class="well">
+            <div>
+              <span style="font-size: 13px;">
+                テストテストテストテストテストテストテストテスト
+                <br>
+                テスト
+                <br>
+                テストテスト
+              </span>
+              <br>
+              &nbsp;
+            </div>
+          </div>
+        </div>
+        <div class="span1">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 60px; height: 60px;">
+        </div>
+      </div>
+      <div class="row">
+        <div class="span11">
+          <div class="well">
+            <div>
+              <span style="font-size: 13px;">
+                テストテストテストテストテストテストテストテスト
+                <br>
+                テスト
+                <br>
+                テストテスト
+              </span>
+              <br>
+              &nbsp;
+            </div>
+          </div>
+        </div>
+        <div class="span1">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 60px; height: 60px;">
+        </div>
+      </div>
+      <div class="well">
+        <form>
+          <div class="control-group">
+          </div>
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 30px; height: 30px;">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 30px; height: 30px;">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 30px; height: 30px;">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 30px; height: 30px;">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 30px; height: 30px;">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 30px; height: 30px;">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 30px; height: 30px;">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 30px; height: 30px;">
+          <img src="http://i.imgur.com/Asf2J.jpg" style=" width: 30px; height: 30px;">
+          <div class="control-group">
+          </div>
+          <div class="control-group">
+            <input name="textinput1" type="" placeholder="name">
+          </div>
+          <textarea name="textarea1" cols="200" row="10" ></textarea>
+          <a class="btn btn-success" href="send()">SEND</a>
+        </form>
+        <div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .comment {
+          margin:0 0 10px 0;
+      }
+      .textarea {
+          width:95%;
+          height:80px;
+      }
+      .author {
+          float: right;
+          color:#aaaaaa;
+      }
+      .login {
+          float:right;    
+      }
+    </style>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/js/bootstrap.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/chat.js"></script>
+  </body>
+</html>
